@@ -1,0 +1,17 @@
+{
+    "Dashboards": "Dashboard",
+    "General": "Generale",
+    "Overview": "Panoramica",
+    "Settings": "Impostazioni",
+    "Customers": "Clienti",
+    "Create customer": "Crea cliente",
+    "Customer details": "Dettagli cliente",
+    "Invoices": "Fatture",
+    "List invoices": "Elenco fatture",
+    "listCustomers": "Elenco clienti",
+    "Create invoice": "Crea fattura",
+    "Invoice details": "Dettagli fattura",
+    "PDF Chat": "Chat PDF",
+    "Other": "Altro",
+    "Auth": "Autenticazione"
+}

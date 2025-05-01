@@ -1,0 +1,61 @@
+export const paths = {
+  home: '/',  
+  auth: {
+    supabase: {
+      callback: { implicit: '/auth/supabase/callback/implicit', pkce: '/auth/supabase/callback/pkce' },
+      signIn: '/auth/supabase/sign-in',
+      signUp: '/auth/supabase/sign-up',
+      signUpConfirm: '/auth/supabase/sign-up-confirm',
+      resetPassword: '/auth/supabase/reset-password',
+      recoveryLinkSent: '/auth/supabase/recovery-link-sent',
+      updatePassword: '/auth/supabase/update-password',
+    },
+  },
+  dashboard: {
+    overview: '/dashboard',
+    settings: {
+      account: '/dashboard/settings/account',
+      billing: '/dashboard/settings/billing',
+      integrations: '/dashboard/settings/integrations',
+      notifications: '/dashboard/settings/notifications',
+      security: '/dashboard/settings/security',
+      team: '/dashboard/settings/team',
+    },
+    pdfChat: {
+      base: '/dashboard/pdf-chat',      
+      thread: (threadType: string, threadId: string) => `/dashboard/pdf-chat/${threadId}`,
+    },
+    customers: {
+      list: '/dashboard/customers',
+      create: '/dashboard/customers/create',
+      details: (customerId: string) => `/dashboard/customers/${customerId}`,
+    },
+    invoices: {
+      list: '/dashboard/invoices',
+      create: '/dashboard/invoices/create',
+      details: (invoiceId: string) => `/dashboard/invoices/${invoiceId}`,
+    },
+  },
+  // TODO - we should be using this path if possible for generating PDFs for users 
+  pdf: { invoice: (invoiceId: string) => `/pdf/invoices/${invoiceId}` },
+  components: {
+    index: '/components',
+    buttons: '/components/buttons',
+    charts: '/components/charts',
+    colors: '/components/colors',
+    detailLists: '/components/detail-lists',
+    forms: '/components/forms',
+    gridLists: '/components/grid-lists',
+    groupedLists: '/components/grouped-lists',
+    inputs: '/components/inputs',
+    modals: '/components/modals',
+    quickStats: '/components/quick-stats',
+    tables: '/components/tables',
+    typography: '/components/typography',
+  },
+  notAuthorized: '/errors/not-authorized',
+  notFound: '/errors/not-found',
+  internalServerError: '/errors/internal-server-error',
+  docs: 'https://material-kit-pro-react-docs.devias.io',
+  purchase: 'https://mui.com/store/items/devias-kit-pro',
+} as const;

@@ -1,0 +1,12 @@
+{
+    "languageChanged": "Lingua cambiata",
+    "internalServerError": "Errore interno del server",
+    "internalServerErrorMessage": "Hai provato una rotta sospetta o sei arrivato qui per errore. In entrambi i casi, prova ad usare la navigazione.",
+    "backToHome": "Torna alla home",
+    "authorizationRequired": "Autorizzazione richiesta",
+    "authorizationRequiredMessage": "Hai provato una rotta sospetta o sei arrivato qui per errore. In entrambi i casi, prova ad usare la navigazione.",
+    "thePageYouAreLookingForIsntHere": "La pagina che stai cercando non è qui",
+    "thePageYouAreLookingForIsntHereMessage": "Hai provato una rotta sospetta o sei arrivato qui per errore. In entrambi i casi, prova ad usare la navigazione.",
+    "notFound": "Non trovato",
+    "notFoundMessage": "Hai provato una rotta sospetta o sei arrivato qui per errore. In entrambi i casi, prova ad usare la navigazione."
+}

@@ -1,0 +1,18 @@
+{
+    "TODO": "CHANGE TO LOWER CAMEL CASE",
+    "Dashboards": "Dashboards",
+    "General": "General",
+    "Overview": "Overview",
+    "Settings": "Settings",
+    "Customers": "Customers",
+    "Create customer": "Create customer",
+    "Customer details": "Customer details",
+    "Invoices": "Invoices",
+    "List invoices": "List invoices",
+    "listCustomers": "List customers",
+    "Create invoice": "Create invoice",
+    "Invoice details": "Invoice details",
+    "PDF Chat": "PDF Chat",
+    "Other": "Other",
+    "Auth": "Auth"
+}
